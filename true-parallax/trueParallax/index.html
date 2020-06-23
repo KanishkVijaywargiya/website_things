@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Parallax</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <div class="row lax" data-lax-translate-y="0 0, 400 100">
+                    <div class="col-sm-12 text-center">
+                        <h1 class="display-1 font-weight-bold">
+                            True Parallax
+                        </h1>
+                        <p class="lead">
+                            LANDING PAGE DESIGN USING HTML AND CSS
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-sm-12 text-center">
+                        <div class="product-wrapper">
+                            <img src="./images/p.png" class="scroll-move lax" data-lax-translate-x="0 20, 300 350"
+                                data-lax-translate-y="100 0, 1200 100" alt="" srcset="">
+
+                            <img src="./images/front.png" class="scroll-stable lax" alt="" srcset="">
+
+                            <img src="./images/ui.png" class="scroll-move lax" data-lax-translate-x="0 -20, 300 -350"
+                                data-lax-translate-y="400 0, 1200 -100" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="desc">
+            <div class="container text-center">
+                <br><br><br><br>
+                <a href="#">Watch our videos</a>
+                <br><br>
+                <p class="col-md-8 text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, autem? Corporis nihil quo
+                    molestiae beatae quasi. Rem reiciendis mollitia eaque quaerat delectus, temporibus, nulla vitae
+                    debitis corporis voluptate voluptatibus officia!
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="./js/lax.min.js"></script>
+    <script src="./js/func.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.gradient {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+html{
+    scroll-behavior: smooth;
+}
+@media only screen and (max-width: 768px) {
+    .form{
+        padding: 20px;
+        width: 18em;
+        margin-left: -4vmin;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .form{
+        padding: 20px;
+        width: 18em;
+        margin-left: -4vmin;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .form{
+        padding: 20px;
+        width: 18em;
+        margin-left: -4vmin;
+    }
+}
